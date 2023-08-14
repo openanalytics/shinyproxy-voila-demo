@@ -1,6 +1,8 @@
 # Running Voila apps in ShinyProxy
 
 This repository describes how to add a Voila app inside ShinyProxy.
+Voilà turns Jupyter notebooks into standalone web applications. For writing notebooks, checkout the [Jupyter Notebook demo](https://github.com/openanalytics/shinyproxy-jupyter-notebook-demo).
+
 
 # Build the Docker image
 
@@ -31,6 +33,7 @@ specs:
 ```
 
 # References
+
 * https://github.com/voila-dashboards/voila/blob/main/notebooks/basics.ipynb
 
 
