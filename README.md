@@ -23,7 +23,8 @@ sudo docker build -t openanalytics/shinyproxy-voila-demo .
 # ShinyProxy Configuration
 
 To add the Voila application to ShinyProxy add the following lines to its configuration file (see [application.yml](./application.yml) for a complete file):
-```
+
+```yaml
 specs:
   - id: voila-demo
     container-image: openanalytics/shinyproxy-voila-demo
