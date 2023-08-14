@@ -6,14 +6,10 @@ proxy:
   heartbeat-timeout: 60000
   port: 8080
   authentication: simple
-  admin-groups: scientists
   users:
   - name: jack
     password: password
     groups: scientists
-  - name: jeff
-    password: password
-    groups: mathematicians
   specs:
   - id: voila-demo
     container-image: openanalytics/shinyproxy-voila-demo
@@ -22,4 +18,4 @@ proxy:
     target-path: "#{proxy.getRuntimeValue('SHINYPROXY_PUBLIC_PATH')}"
 logging:
   file:
-    shinyproxy.log
+    name: shinyproxy.log

@@ -1,6 +1,6 @@
 # Running Voila apps in ShinyProxy
 
-This repository describes how to add a Voila app inside ShinyProxy
+This repository describes how to add a Voila app inside ShinyProxy.
 
 # Build the Docker image
 
